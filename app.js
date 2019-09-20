@@ -29,3 +29,14 @@ const circle = svg
             .attr('stroke', 'orange')
             .attr('stroke-width', 5)
             .attr('fill', 'pink')
+
+
+rectHeight = 50
+
+const rect = svg
+            .append('rect')
+            .attr('width', 15)
+            .attr('height', rectHeight)
+            .attr('x', 600)
+            .attr('y', bottomLine - bottomLineWidth/2- rectHeight)
+            .attr('fill', 'red')
