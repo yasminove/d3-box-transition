@@ -19,3 +19,13 @@ const line = svg
             .attr('y2', bottomLine)
             .attr('stroke', 'black')
             .attr('stroke-width', bottomLineWidth)
+
+
+const circle = svg
+            .append('circle')
+            .attr('cx', 200)
+            .attr('cy', bottomLine - circleRadius - bottomLineWidth)
+            .attr('r', circleRadius)
+            .attr('stroke', 'orange')
+            .attr('stroke-width', 5)
+            .attr('fill', 'pink')
