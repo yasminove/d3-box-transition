@@ -40,3 +40,9 @@ const rect = svg
             .attr('x', 600)
             .attr('y', bottomLine - bottomLineWidth/2- rectHeight)
             .attr('fill', 'red')
+
+const group = svg
+            .append('g')
+            .attr('class', 'group')
+
+rect2Height = 50
