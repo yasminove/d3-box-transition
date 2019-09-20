@@ -5,7 +5,7 @@ const svg = d3
             .select('#chart')
             .append('svg')
             .attr('width', svgWidth)
-            .attr('height', svgHeight)
+            .attr('height', svgHeight);
 
 const bottomLine = 300
 const circleRadius = 30
