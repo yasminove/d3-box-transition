@@ -46,3 +46,15 @@ const group = svg
             .attr('class', 'group')
 
 rect2Height = 50
+
+
+box= 390
+
+      group
+          .append('rect')
+          .attr('x', box)
+          .attr('y', bottomLine - bottomLineWidth/2 - rect2Height)
+          .attr('width', 70)
+          .attr('height', rect2Height)
+          .attr('fill', 'none')
+          .attr('stroke', 'blue')
