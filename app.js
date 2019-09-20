@@ -68,3 +68,11 @@ textPadding = 7
           .attr('fill', 'coral')
           .attr('x', box+textPadding)
           .attr('y', bottomLine - rect2Height/2)
+
+setTimeout(()=>{
+        group
+          .transition()
+          .duration(2000)
+          .ease(d3.easeElastic)
+          .attr('transform', 'translate(0, 100)')
+      }, 1000)
