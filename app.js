@@ -58,3 +58,13 @@ box= 390
           .attr('height', rect2Height)
           .attr('fill', 'none')
           .attr('stroke', 'blue')
+
+
+textPadding = 7
+
+        group
+          .append('text')
+          .text('iam great')
+          .attr('fill', 'coral')
+          .attr('x', box+textPadding)
+          .attr('y', bottomLine - rect2Height/2)
